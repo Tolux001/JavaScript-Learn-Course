@@ -1,0 +1,29 @@
+Git workflow
+--Modified
+--Staged
+--Committed
+--Remote Repo
+
+Git command
+git init
+git remote
+git remote -v
+git remote add origin link
+git checkout main
+git config --global --add safe.directory 'File Option'
+git clone [file https / ssh]
+git add
+git commit -m ["message"]
+git fetch 
+git checkout
+git status
+git restore --staged [filename]
+git branch
+git checkout -B [Name Of Branch]
+git push -u origin [branch name]
+git pull
+
+Naming Conversion for branches
+New Features -- feature/[name]
+Bug fix -- fix/[name]
+

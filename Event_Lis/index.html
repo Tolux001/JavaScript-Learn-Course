@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .boxes {
+        padding: 0.5em 1em;
+        border: none;
+        color: white;
+        background-color: blueviolet;
+        border-radius: 0.5em;
+    }
+    .box-design {
+        border: 2px solid blue;
+    }
+    .hidden--content {
+        position: absolute;
+        left: 100%;
+        transition: 0.9s ease;
+    }
+    .hidden--content--one {
+        left: 10px;
+    }
+    #delegation--container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+        background-color: rgb(0, 145, 255);
+    }
+    ul{
+        list-style: none;
+    }
+    #sports {
+        border: 2px solid whitesmoke;
+        padding: 1em;
+        border-radius: 1em;
+        text-align: center;
+    }
+    #sports li {
+        margin: 1em 0;
+        color: white;
+        font-size: x-large;
+        cursor: pointer;
+        text-transform: capitalize;
+        padding: 0.5em;
+    }
+</style>
+<body>
+   <div class="one--container">
+        <h1 id="main-heading">Favorite</h1>
+        <ul class="list">
+            <li class="list-items">The Matrix</li>
+            <li class="list-items">Star Wars</li>
+            <li class="list-items">Harry Potter</li>
+            <li class="list-items"> Lords Of the Rings</li>
+        </ul>
+   </div>
+
+   <!--Event Listeners-->
+   <div class="element--container">
+    <h1>Event Listeners</h1>
+    <div class="child--container">
+        <h3 class="heading">Example 1</h3>
+        <button class="btn1" onclick="alert('I love js')" type="button">Enter</button>
+    </div>
+    <div class="child--container container--one" style="width: 100%;padding: 2rem;color: white;background-color: black;">
+        <h3 class="heading">Example 2</h3>
+        <button class="btn2" type="button">Enter</button>
+    </div>
+    <div class="child--container">
+        <h3 class="heading">Example 3</h3>
+        <button class="btn3" type="button">Enter</button>
+    </div>
+   </div>
+   
+   <div class="two--container" style="background-color: dodgerblue; color: white;padding: 2em;">
+        <button class="boxes">Reveal More</button>
+        <div class="hidden--content">
+            lorem ipsum dolor sit coming to london to eat rice and beans
+        </div>
+   </div>
+
+   <div id="delegation--container">
+    <ul id="sports">
+        <li id="football">football</li>
+        <li id="basketball">basketball</li>
+        <li id="boxing">boxing</li>
+        <li id="tennis">tennis</li>
+        <li id="golf">golf</li>
+    </ul>
+   </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

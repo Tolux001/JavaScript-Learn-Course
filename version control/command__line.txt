@@ -1,0 +1,68 @@
+Version control allows you to keep track of changes made to a file or sets of files, who and when it was made
+Advantages/Goals of version control
+Revision history - Record
+Identity - User name
+Collaboration - Working with teams 
+Automation - team review
+Efficiency
+
+
+Command line prompt 
+---------------------
+cd -- change directory
+---------------------
+.. -- move to parent folder
+---------------------
+~ -- change directory to 
+---------------------
+/ -- change directory to root
+---------------------
+touch -- create file
+---------------------
+ls -- display content
+---------------------
+wc [fileName] -w -- word count; it works after you have opens the file: You can use Pipes to combine the cat command and the wc -w command
+---------------------
+mkdir -- create directory/folder
+---------------------
+cat -- display files
+---------------------
+less -- display files one at a time
+---------------------
+mv [from] [to] -- Move files from one location to another
+---------------------
+pwd -- print working directories
+---------------------
+cp -- copy files
+---------------------
+rm -- remove directories
+---------------------
+clear -- clearing the terminal
+---------------------
+man -- tels you specific details about a command
+---------------------
+flag -- change or extend the use of a command|| mostly addition to the command name
+// ls -l -- List accordingly
+// ls -la -- list all including hidden files
+// cp -r -- copy directories
+---------------------
+Using Pipes (|) -- Allows Picking of two options
+---------------------
+> || < -- redirection flag(Position coming in or out)
+prompt [redirection symbol] [file name] 
+eg. cat > file.txt
+Press enter
+Input the content
+Press enter
+Press Ctrl + D
+---------------------
+test file start with (-)
+list file start with (l)
+directories starts with (d)
+temp file has (->) following it
+---------------------
+grep -- global regular expression [Used to search across files and name]
+grep flags
+-i -- Ignore the cases and position
+-w -- print the exact instruction
+---------------------

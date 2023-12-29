@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event handler</title>
+    <style>
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+      .grandparent{
+        display: flex;
+        background-color: red;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 500px;
+        padding: 10px;
+      }
+      .parent{
+        background-color: green;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 10px;
+      }
+      .child {
+        background-color: blue;
+        width: 130px;
+        height: 100px;
+      }
+ 
+
+      body .div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 4px 1px #9999;
+        margin: 100px auto;
+      }
+      .grandparent--{
+        background-color: red;
+        width: 1000px;
+        height: 1000px;
+        
+      }
+      .parent--{
+        background-color: green;
+        width: 700px;
+        height: 700px;
+        
+      }
+      .child--{
+        background-color: dodgerblue;
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        font-size: 2em;
+      }
+
+.square {
+  position: relative;
+}
+.btn {
+  border: none;
+  padding: 4px 26px;
+  background-color: orangered;
+  border-radius: 24px;
+  position: absolute;
+  top: 42%;
+  right: 50%;
+}
+.form--input {
+    position: relative !important;
+    border-radius: 8px;
+    border: none;
+    width: 700px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    margin: 50px auto;
+    padding: 4px 28px;
+}
+span {
+  font-size: 20px;
+  color: dodgerblue;
+  white-space: nowrap;
+}
+
+    </style>
+    <script src="scriptapp1.js" defer></script>
+  </head>
+  <body>
+    
+    <div class="grandparent" id="grandparent-id">
+      <div class="parent" id="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+      <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+      </div>
+    </div>
+    
+    <div class="grandparent-- div" >
+      <div class="parent-- div">
+        <div class="child-- div" onclick="clickHandler()"></div>
+      </div>
+    </div>
+
+    <div>
+      <h1>Hello and what is your name</h1>
+      <p>Hello Dr.<span></span> This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.</p>
+  </div>
+  <div class="square">
+    <input type="text" class="form--input" placeholder="Your name">
+    <button type="button" class="btn">Click me</button>
+  </div>
+  
+  </body>
+</html>
