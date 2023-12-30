@@ -29,7 +29,7 @@ cat -- display files
 ---------------------
 less -- display files one at a time
 ---------------------
-mv [from] [to] -- Move files from one location to another
+mv [Folder Name] [to] -- Move files from one location to another
 ---------------------
 pwd -- print working directories
 ---------------------
