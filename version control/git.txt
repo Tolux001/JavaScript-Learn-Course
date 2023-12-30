@@ -6,6 +6,7 @@ Git workflow
 
 Git command
 ----------------------
+gh auth login
 git init
 git branch -M main
 git remote -v
