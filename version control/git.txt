@@ -5,18 +5,17 @@ Git workflow
 --Remote Repo
 
 Git command
+----------------------
 git init
-git remote
 git branch -M main
 git remote -v
 git remote add origin link
-git checkout main
+git checkout -B [branch name]
 git config --global --add safe.directory 'File Option'
 git clone [file https / ssh]
 git add
 git commit -m ["message"]
-git fetch 
-git checkout
+git fetch
 git status
 git restore --staged [filename]
 git branch
