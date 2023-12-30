@@ -16,6 +16,7 @@ git clone [file https / ssh]
 git add
 git commit -m ["message"]
 git push -u origin main
+git push --set-upstream origin feature/learn
 git fetch
 git status
 git restore --staged [filename]
