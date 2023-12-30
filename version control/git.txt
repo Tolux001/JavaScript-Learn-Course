@@ -7,6 +7,7 @@ Git workflow
 Git command
 git init
 git remote
+git branch -M main
 git remote -v
 git remote add origin link
 git checkout main
