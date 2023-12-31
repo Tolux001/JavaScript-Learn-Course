@@ -25,8 +25,14 @@ git branch
 git checkout -B [Name Of Branch]
 git push -u origin [branch name]
 git pull
+git merge --abort
+git log --merge
 
 Naming Conversion for branches
 New Features -- feature/[name]
 Bug fix -- fix/[name]
+
+Work flow
+-----------------
+Feature branching
 
