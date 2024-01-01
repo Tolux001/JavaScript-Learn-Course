@@ -27,6 +27,14 @@ git push -u origin [branch name]
 git pull
 git merge --abort
 git log --merge
+git diff HEAD [fileName]
+git diff [fileId] [fileId]
+git diff [branchName] [branchName]
+git log --pretty=oneline
+git blame [fileName]
+git blame -L no.,no. [fileName]
+git blame -l [fileName]
+git log -p [commitId]
 
 Naming Conversion for branches
 New Features -- feature/[name]

@@ -29,6 +29,8 @@ cat -- display files
 ---------------------
 less -- display files one at a time
 ---------------------
+rm -rf [fileName] -- Remove file / Delete file
+---------------------
 mv [Folder Name] [to] -- Move files from one location to another
 ---------------------
 pwd -- print working directories
