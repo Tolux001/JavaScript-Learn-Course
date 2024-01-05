@@ -44,3 +44,7 @@ Work flow
 -----------------
 Feature branching
 
+
+ssh
+ssh-agent bash
+ssh-add /c/Users/[systemName]/.ssh/[fileId]
