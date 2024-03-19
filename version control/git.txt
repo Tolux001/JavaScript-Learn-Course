@@ -36,6 +36,21 @@ git blame -L no.,no. [fileName]
 git blame -l [fileName]
 git log -p [commitId]
 
+initializing Master branch 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tolux001/Cheese-Cake-For-Twitter.git
+git push -u origin main
+
+initializing Main branch 
+git init
+git remote add origin https://github.com/Tolux001/Cheese-Cake-For-Twitter.git
+git checkout -B [BranchName]
+git pull origin main
+git push -u origin main
+
 Naming Conversion for branches
 New Features -- feature/[name]
 Bug fix -- fix/[name]
