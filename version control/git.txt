@@ -12,6 +12,7 @@ git branch -M main
 git remote -v
 git remote add origin link
 git remote set-url origin <new link>
+git remote show origin
 git checkout -B [branch name]
 git config --global --add safe.directory 'File Option'
 git clone [file https / ssh]
